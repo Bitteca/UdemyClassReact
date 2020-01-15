@@ -1,0 +1,38 @@
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.season-display.inverno i {
+  color: #b3ccff;
+}
+
+.season-display.verao i {
+  color: #ffd11a;
+}
+
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.verao {
+  background-color: #ffb366;
+}
+
+.inverno {
+  background-color: #e6f9ff;
+}
+
+h1 {
+  font-size: 48px;
+}
